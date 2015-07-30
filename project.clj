@@ -1,6 +1,6 @@
-(defproject org.toomuchcode/clara-rules "0.8.9-SNAPSHOT"
+(defproject fact/clara-rules "0.8.9"
   :description "Clara Rules Engine"
-  :url "https://github.com/rbrush/clara-rules"
+  :url "https://github.com/fact/clara-rules"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.6.0"]
@@ -39,10 +39,4 @@
               :crossover-jar true}
 
   :scm {:name "git"
-        :url "https://github.com/rbrush/clara-rules.git"}
-  :pom-addition [:developers [:developer
-                              [:id "rbrush"]
-                              [:name "Ryan Brush"]
-                              [:url "http://www.toomuchcode.org"]]]
-  :deploy-repositories [["snapshots" {:url "https://oss.sonatype.org/content/repositories/snapshots/"
-                                      :creds :gpg}]])
+        :url "https://github.com/fact/clara-rules.git"})
